@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="dn">12</button>
+    <script>
+        function  span(){
+            var a=document.getElementById(`dn`);
+            if(a.innerHTML<1100){
+                var b=Number(a.innerHTML)+8;
+                a.innerHTML=b
+            }
+
+        }
+        setInterval(spn,4)
+    </script>
+    
+</body>
+</html>
